@@ -9439,3 +9439,26 @@ th.hide-for-touch {
     display: none !important;
   }
 }
+/* line 4, ../scss/app.scss */
+#headerBanner {
+  background-image: url(../images/RPIQuad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 345px;
+  width: 100%;
+  position: fixed;
+}
+
+/* line 14, ../scss/app.scss */
+#mainContent {
+  position: relative;
+  background: #FAEDCC;
+  top: 300px;
+  height: 1000px;
+}
+
+/* line 25, ../scss/app.scss */
+.sortable input {
+  height: 20px !important;
+}

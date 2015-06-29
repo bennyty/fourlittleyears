@@ -1,6 +1,32 @@
 @import "settings";
 @import "foundation";
 
+#headerBanner {
+	background-image: url(../images/RPIQuad.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	height: 345px;
+	width: 100%;
+	position: fixed;
+}
+
+#mainContent {
+	position: relative;
+	background: #FAEDCC;
+	top: 300px;
+	height: 1000px; //for testing scrolling
+	
+	// .semester {
+	// 	margin: auto;
+	// }
+}
+.sortable {
+	input {
+		height: 20px !important;
+	}
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

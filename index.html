@@ -8,87 +8,295 @@
 	<script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-	<nav class="top-bar" data-topbar role="navigation">
-		<ul class="title-area">
-			<li class="name">
-				<h1><a href="#">Welcome to Four Little Years</a></h1>
-			</li>
-			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-		</ul>
-
-		<section class="top-bar-section">
-			<!-- Right Nav Section -->
-			<ul class="right">
-				<li class="active"><a href="#">Save</a></li>
-				<li><a href="#">Load</a></li>
+	<div class="fixed">
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Welcome to Four Little Years</a></h1>
+				</li>
+				<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 			</ul>
-		</section>
-	</nav>
+		
+			<section class="top-bar-section">
+				<!-- Right Nav Section -->
+				<ul class="right">
+					<li class="active"><a href="#">Save</a></li>
+					<li><a href="#">Load</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+	<div id="headerBanner"></div>
 
-	<!-- .row>.large-12.columns.month>ul.sortable>li*8>ul.inline-list>li>input[type="text"]^+li>input[type="number"]^+li>input[type="number"] -->
-	<div class="row">
-		<div class="large-12 columns month">
-			<ul class="sortable">
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-				<li>
-					<ul class="inline-list">
-						<li><input type="text"></li>
-						<li><input type="number"></li>
-						<li><input type="number"></li>
-					</ul>
-				</li>
-			</ul>
+	<!-- #mainContent>.row>.small-6.columns.panel.semester*2>ul.sortable.no-bullet>li*4>form>.row>.small-6.columns>input[type="text" placeholder="Course Name"]^+.small-3.columns>input[type="text" placeholder="Grade"]^+.small-3.columns>input[type="text" placeholder="Credits"] -->
+	<div id="mainContent">
+		<div class="row">
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="small-6 columns panel semester">
+				<ul class="sortable no-bullet">
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+					<li>
+						<div class="row">
+							<div class="small-6 columns"><input type="text" placeholder="Course Name"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Grade"></div>
+							<div class="small-3 columns"><input type="text" placeholder="Credits"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
+
 
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
